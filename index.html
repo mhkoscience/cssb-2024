@@ -1,0 +1,251 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <meta author="Michal H. Kolář">
+
+	<title>
+        Three epochs of nascent protein translocation through the ribosome exit tunnel 
+    </title>
+
+    <link rel="stylesheet" href="dist/reset.css">
+    <link rel="stylesheet" href="dist/reveal.css">
+    <link rel="stylesheet" href="dist/theme/white.mhk.css" id="theme">
+
+</head>
+	<body>
+        <div class="reveal">
+	        <div class="slides">
+<!--
+============ SLIDES START HERE ============
+-->
+
+
+
+<section style="text-align: left">
+    <h2 style="margin-top:1em;">
+        Three epochs of nascent protein translocation through the ribosome exit tunnel
+    </h2>
+    <div class="leftcol" style="width:50%">
+        <h2 style="margin-top: 3em; margin-bottom: 1em">Michal H. Kolář</h2>
+        <h4><a href="http://mhko.science/contact" target="_blank">michal@mhko.science</a></h4>
+        <!--h4><a href="http://mhko.science/contact" target="_blank">http://mhko.science/contact</a></h4>
+        <h4><a href="http://mhko.science/jh-inst-2023" target="_blank">http://mhko.science/cssb-2024</a></h4-->
+    </div>
+    <div class="rightcol" style="width:38%">
+        <video width="100%" nocontrols autoplay loop style="margin-top:-1em">
+          <source data-src="./media/elongation.mp4" type="video/mp4">
+        </video>
+    </div>
+</section>
+
+
+<section>
+    <div style="width: 100%">
+        <img src="./media/team.jpg">
+        <div style="padding: 1em; display: flex; justify-content: space-between; flex-wrap: wrap; align-items: center">
+            <img src="./media/logos/vscht.png" style="height: 60px;">
+            <img src="./media/logos/gacr.png" style="height: 70px;">
+            <img src="./media/logos/czexpats.png" style="height: 90px;">
+            <img src="./media/logos/it4i.png" style="height: 55px;">
+            <img src="./media/logos/mpcdf.png" style="height: 55px;">
+        </div>
+    </div>
+</section>
+
+
+<section>
+    <video width="70%" nocontrols autoplay loop style="margin-top:-1em">
+      <source data-src="./media/ribosome.mp4" type="video/mp4">
+    </video>
+</section>
+
+
+
+<section>
+     <h2 style="color:dodgerblue">
+         30&ndash;40 residues of the nascent polypeptide are protected from protease cleavage
+     </h2>
+     <img src="./media/paper-malkin.png">
+</section>
+
+
+<section data-background-image="./media/cross-section.png"
+         data-background-size="70%">
+</section>
+
+<section class="center">
+    <h2>Rate of translation</h2> 
+    <p>
+        10&ndash;20 residues per second in bacteria
+    </p>
+    <p>
+        4&ndash;5 residues per second in eukaryotes
+    </p>
+</section>
+
+
+<section>
+    <div class="leftcol" style="width:40%">
+        <img src="./media/epochs/epoch-i.png">
+    </div>
+    <div class="rightcol">
+        <h2>Epoch I</h2>
+        <p>
+            Translocation of the N-terminus from the catalytic center to the tunnel exit.
+        </p>
+        <p>
+            About <b>4 seconds</b> on average in E.&nbsp;coli.
+        </p>
+    </div>
+</section>
+
+
+<section>
+    <div class="leftcol" style="width:40%">
+        <img src="./media/epochs/epoch-ii.png">
+    </div>
+    <div class="rightcol">
+        <h2>Epoch II</h2>
+        <p>
+            N-terminus outside the ribosome, C-terminus still attached to the tRNA.
+        </p>
+        <p>
+            In bacteria, <b>a few dozen seconds</b> depending on the protein lenght.
+        </p>
+    </div>
+</section>
+
+
+<section>
+    <div class="leftcol" style="width:40%">
+        <img src="./media/epochs/epoch-iii.png">
+    </div>
+    <div class="rightcol">
+        <h2>Epoch III</h2>
+        <p>
+            Ejection of the nascent polypeptide after its release from the tRNA.
+        </p>
+        <p>
+            A few <b>milliseconds</b>.
+        </p>
+    </div>
+</section>
+
+
+<section data-background-image="./media/epochs/epochs.png"
+         data-background-size="80%">
+</section>
+
+<section data-background-image="./media/gating/gating-overview.png"
+         data-background-size="50%">
+</section>
+
+<section style="text-align: left">
+    <div>
+        <h3 style="color:dodgerblue">Is the constriction site flexible?</h3>
+        <h4>
+            Yes, is seems so from both PDB survey and MD simulations. The flexibility is especially high for certain side chains of uL4 and uL22.
+        </h4>
+    </div>
+    <div class="fragment">
+        <h3 style="color:dodgerblue;margin-top:1em">Can the constriction get closed?</h3>
+        <h4>
+            Temporarily yes, at least for certain lengths of the nascent peptide.
+        </h4>
+    </div>
+    <div class="fragment">
+        <h3 style="color:dodgerblue; margin-top:1em">After all, why does the constriction exist and is evolutionary conserved?</h3>
+    </div>
+</section>
+
+
+<section data-background-image="./media/gating/setup-overview.png"
+         data-background-size="70%">
+</section>
+
+
+<section>
+    <img src="./media/gating/setup.png">
+        <p>
+            All-atom MD simulations of a ribosome cutout.
+        </p>
+        <p>
+            Metadynamics simulations with two collective variables
+            describing the constriction width.
+        </p>
+</section>
+
+
+<section>
+    <img src="./media/gating/bez-gly-soubor.png" style="width:60%">
+</section>
+
+
+<section data-background-image="./media/gating/no-gly.png"
+         data-background-size="70%">
+</section>
+
+
+<section data-background-image="./media/gating/pmfs.png"
+         data-background-size="70%">
+</section>
+
+
+<section data-background-image="./media/gating/ensembles.png"
+         data-background-size="70%">
+</section>
+
+
+<section>
+    <div class="leftcol" style="text-align: center">
+        <h4>118</h4>
+        <img src="./media/poster-aneta.png">
+    </div>
+
+    <div class="rightcol" style="text-align: center">
+        <h4>139</h4>
+        <img src="./media/poster-joe.png">
+    </div>
+</section>
+
+
+<section style="text-align: left">
+    <h3 style="margin-top:1em;">
+        Three epochs of nascent protein translocation through the ribosome exit tunnel
+    </h3>
+    <img src="./media/epochs/epochs.png">
+    <div style="display: flex">
+        <h3 style="margin-right:0.5em">by Michal H. Kolář et al.,</h3>
+        <h3><a href="http://mhko.science/contact" target="_blank">michal@mhko.science</a></h3>
+    </div>
+
+
+</section>
+
+<!--
+============ SLIDES END HERE ============
+-->
+            </div>
+        </div>
+
+		<script src="dist/reveal.js"></script>
+		<script>
+			// More info about initialization & config:
+			// - https://revealjs.com/initialization/
+			// - https://revealjs.com/config/
+			Reveal.initialize({
+				hash: true,
+                autoPlayMedia: true,
+                controls: false,
+                progress: true, 
+                slideNumber: true,
+                transition: 'none', 
+                backgroundTransition: 'none',
+                center: false,
+			});
+		</script>
+	</body>
+</html>
+        
