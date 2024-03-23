@@ -1,2 +1,6 @@
-# cssb-2024
-slides of a talk on the XX Discussions in Structural Molecular Biology, Nové Hrady, Czech Republic 
+# Three epochs of nascent protein translocation through the ribosome exit tunnel
+slides of a talk given on XX Discussions in Structural Molecular Biology, Nové Hrady, Czech Republic
+
+author: Michal H. Kolář
+
+date: 2024-03-22
